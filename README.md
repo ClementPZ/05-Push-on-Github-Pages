@@ -2,9 +2,15 @@
 
 We don't want to keep your profile within `fullstack-challenges` because we want to version it with `git` as a separate project. So let's copy your profile as an independent folder and jump into it:
 
+<<<<<<< HEAD
 ```bash
 cd ~/code/<user.github_nickname>/fullstack-challenges/04-Front-End/01-HTML-and-CSS/04-Responsive-profile
 cp -r profile ~/code/<user.github_nickname>
+=======
+
+```bash
+cp -r ../04-Advanced-selectors/profile ~/code/<user.github_nickname>
+>>>>>>> b7b10a6b8597783362cc18869d040f3d8a5d26f3
 cd ~/code/<user.github_nickname>/profile
 ```
 
@@ -49,6 +55,7 @@ git add .
 git commit -m "make my profile prettier"
 git push origin gh-pages
 ```
+<<<<<<< HEAD
 
 ## Submit your code to Kitt
 
@@ -63,3 +70,5 @@ git commit -m "Submitting my work to Kitt"
 git push origin master
 
 ```
+=======
+>>>>>>> b7b10a6b8597783362cc18869d040f3d8a5d26f3
